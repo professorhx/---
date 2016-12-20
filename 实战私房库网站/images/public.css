@@ -1,0 +1,252 @@
+/**基本格式开始***********/
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p{
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+}
+ul{
+	list-style:none;
+}
+img,a img{
+	border:none;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	 text-decoration:underline;
+}
+head .auto{
+    width: 980px;
+    margin: 0 auto;
+}
+/**基本格式结束***********/
+
+#main{
+	background:url(main_top_bg.jpg) repeat-x;
+}
+#main1{
+	background:url(main1_bottom_bg.jpg) 0px bottom repeat-x;
+}
+
+/*查看更多的按钮样式*/
+.btnStyle{
+	background: url("default.png");
+    display: block;
+    width: 103px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btnStyle:hover{
+	background: url("d_hover.png");
+}
+/*头部开始*/
+#header{
+	height:452px;
+	background:url(top_bg.jpg) repeat-x;
+}
+#top{
+    height: 100px;
+
+}
+#top h1 span{
+    font-size: 14px;
+    color: #cccccc;
+    float: right;
+}
+#top .logo{
+    width: 291px;
+    padding: 25px 0px 0px 15px;
+    float: left;
+}
+#top .search{
+    width: 280px;
+    height: 50px;
+    float: right;
+    margin: 30px 30px 0px 20px;
+}
+#top .search .text{
+    width: 180px;
+    height: 27px;
+    background: #161B1F;
+    color: #BCBCBC;
+    border: 1px solid #0B0E10;
+    padding: 5px;
+}
+#top .search .submit{
+    width: 80px;
+    height: 28px;
+    /*鼠标放到按钮上时，鼠标变成一个手*/
+    cursor: pointer;
+}
+#nav{
+    height: 50px;
+
+}
+#nav ul{
+    margin: 0px 0px 0px 25px;
+}
+#nav ul li{
+    float: left;
+    margin: 0 10px 0 0;
+}
+#nav ul li a{
+    color: #0B0E10;
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    width: 103px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    margin: 10px 0px 0px  0px;
+
+}
+#nav ul li a:hover{
+    background:url("hover.png")  ;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+#runplay{
+    height: 301px;
+    width: 100%;
+    background: url("runplay_bg.jpg");
+}
+#runplay .left{
+    width: 300px;
+    float: left;
+    margin: 50px 0 0 30px;
+    display: inline;
+}
+
+#runplay .right{
+    width:300px;
+    float: left;
+    margin: 50px 0 0 100px;
+
+}
+#runplay .right dl dt{
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0 0 20px 0;
+
+}
+#runplay .right dl dd.txt{
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0 0 20px 0;
+
+}
+/*头部结束*/
+
+
+/*wrap定义了中间部分居中 开始*/
+#wrap{
+    width: 920px;
+    height: 850px;
+    margin: 0 auto;
+}
+/*wrap定义了中间部分居中 结束*/
+
+/*wrap定义了中间部分左侧 开始*/
+#wrap #leftBody{
+    width: 620px;
+    height: 850px;
+	float:left;
+}
+/*wrap定义了中间部分左侧 结束*/
+
+/*右侧相同 开始*/
+#wrap #rightBody{
+    width: 240px;
+    height: 850px;
+    float: right;
+}
+#wrap #rightBody  .rightDiv1 h2{
+    color: #0B0E10;
+    font-size: 24px;
+    /*字体正常，可以设置加粗*/
+    font-weight: normal;
+    /*上 右 下 左*/
+    margin: 25px 0 0 0;
+}
+#wrap #rightBody  .rightDiv1 ul li h3 a{
+    color:#0074c5;
+    font-weight: normal;
+    /*加上下划线*/
+    text-decoration: underline;
+}
+/*鼠标放上去改变颜色*/
+#wrap #rightBody  .rightDiv1 ul li h3 a:hover{
+    color: #009900;
+}
+#wrap #rightBody  .rightDiv1 ul li p{
+    color: #555555;
+    margin: 5px 0 0 0;
+
+}
+#wrap #rightBody  .rightDiv1 ul li{
+    /*设置下边框，并且是虚线 有颜色*/
+    border-bottom: 1px dashed #cccccc;
+    height: 70px;
+    padding: 15px 0 0 0 ;
+}
+#wrap #rightBody  .rightDiv2 dl{
+    height: 64px;
+    margin: 35px 0 0 0;
+}
+#wrap #rightBody  .rightDiv2 dl dt{
+    padding: 8px 0 3px 0;
+}
+#wrap #rightBody  .rightDiv2 dl dt a{
+    font-size: 24px;
+    color: #333333;
+    font-weight: bold;
+}
+#wrap #rightBody  .rightDiv2 dl dd{
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+}
+#wrap #rightBody  .rightDiv2  #dl1{
+    /*引入图片背景，不得重复*/
+    /*向右100 上下居中*/
+    background: url("twitter.png") 160px center  no-repeat;
+
+}
+#wrap #rightBody  .rightDiv2 #dl2 {
+    /*引入图片背景，不得重复*/
+    background: url("rss.png") 160px center no-repeat;
+
+}
+/*右侧相同 结束*/
+
+ 
+/*底部开始********/
+#footer{
+	height:100px;
+	background:url(footer_bg.jpg) repeat-x;
+}
+#footer p {
+	text-align:center;
+	color:#ffffff;
+	line-height:200%;
+}
+#footer .p1 {
+	padding-top:20px;
+}
+#footer p a{
+	text-align:center;
+	color:#ffffff;
+	text-decoration:underline;
+	margin:0 20px 0 0;
+}
+#foot p a.last{
+    margin: 0;
+}
+/*底部结束********/
